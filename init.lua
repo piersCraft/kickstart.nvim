@@ -779,6 +779,7 @@ require('lazy').setup({
         typescript = { 'prettierd', 'prettier', stop_after_first = true },
         python = { 'black' },
         http = { 'kulala-fmt' },
+        sql = { 'sql-ft', 'sqlfluff', stop_after_first = true },
       },
     },
   },
